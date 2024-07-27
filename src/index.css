@@ -57,7 +57,7 @@
     @apply list-none;
   }
   li {
-    @apply cursor-pointer;
+    @apply cursor-pointer text-lg;
   }
 
   a {
@@ -75,10 +75,34 @@
 
 @layer utilities {
   .btn-primary {
-    @apply bg-primary hover:bg-primaryBg hover:border hover:border-primary hover:text-white;
+    @apply bg-primary hover:bg-primaryBg hover:border hover:border-primary hover:text-white uppercase font-bold;
+    font-family: "Montserrat", sans-serif;
   }
 
   .btn-secondary {
-    @apply border border-secondary text-secondary border-b-2 hover:bg-secondary hover:text-black;
+    @apply border border-secondary text-secondary border-b-2 hover:bg-secondary hover:text-black uppercase font-bold;
+  }
+
+  .hover-underline {
+    @apply inline-block relative pb-2;
+
+    &::after {
+      @apply absolute bottom-0 left-1/2 w-0 bg-primary h-[2px]  ease-linear duration-150;
+      content: '';
+      transition: width 150ms ease-linear;
+    }
+
+    &:hover::after {
+      @apply w-full left-0;
+    }
+  }
+
+  .active-link-underline {
+    @apply inline-block relative pb-2;
+
+    &::after {
+      @apply absolute bottom-0 left-0 w-full bg-primary h-[2px];
+      content: "";
+    }
   }
 }
