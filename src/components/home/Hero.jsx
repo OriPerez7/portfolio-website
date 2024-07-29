@@ -5,14 +5,14 @@ import heroImage from "../../assets/heroImage.svg";
 import { useTypingEffect } from "../../hooks/useTypingEffect";
 
 const Hero = () => {
-  const texts = ["Orian Perez"];
+  const texts = ["Orian Perez", "a Developer", "an Artist", "a Cat Lover"];
   const currentLetter = useTypingEffect(texts);
   return (
     <>
       <div className="flex justify-between items-center gap-10 md:gap-40 flex-wrap md:flex-nowrap mt-14 md:mt-40">
         {/* Content */}
         <div className="flex flex-col gap-6 min-w-3/5">
-          <h2>Hi! My name is</h2>
+          <h2>Hey there! I'm</h2>
           <h1 className="text-primary block">{currentLetter}</h1>
           <p className="text-lg">
             I'm a self-taught frontend developer passionate about responsive
