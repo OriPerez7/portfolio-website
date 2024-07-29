@@ -30,7 +30,7 @@ export const SectionLayout = ({ title, subtitle, children }) => {
 
 const Layout = ({ children }) => {
   return (
-    <div className="flex flex-col h-screen">
+    <div className="flex flex-col h-screen mx-10 my-2">
       <Navbar />
       {children}
       <Divider />

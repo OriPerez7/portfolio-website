@@ -1,12 +1,12 @@
 import React from 'react'
 import Layout from '../components/shared/Layout'
 
-const Resume = () => {
+const About = () => {
   return (
     <Layout>
-        Resume
+        About
     </Layout>
   )
 }
 
-export default Resume
+export default About

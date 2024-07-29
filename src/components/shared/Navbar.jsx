@@ -18,12 +18,12 @@ const NavItems = ({ className }) => {
       </li>
       <li>
         <NavLink
-          to="/resume"
+          to="/about"
           className={({ isActive }) =>
             isActive ? "active-link-underline" : "hover-underline"
           }
         >
-          Resume
+          About me
         </NavLink>
       </li>
       <li>
