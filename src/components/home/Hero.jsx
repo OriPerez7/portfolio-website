@@ -1,5 +1,4 @@
 import React from "react";
-import { Divider } from "../shared/Layout";
 import SocialMediaLinks from "../shared/SocialMediaLinks";
 import heroImage from "../../assets/heroImage.svg";
 import { useTypingEffect } from "../../hooks/useTypingEffect";
@@ -40,7 +39,6 @@ const Hero = () => {
           className="w-full md:w-2/5 md:rounded-full rounded-md"
         />
       </div>
-      <Divider />
     </>
   );
 };
