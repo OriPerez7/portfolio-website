@@ -23,7 +23,7 @@ const Projects = () => {
         <FilterTags activeTag={activeTag} onTagClick={handleOnTagClick} />
       </div>*/}
       <div className="w-full">
-        <div className="grid grid-cols-3 gap-10">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
           {filteredProjects.map((project, index) => (
             <ProjectItem
               title={project.title}
