@@ -30,7 +30,6 @@ const Projects = () => {
               description={project.description}
               tag={project.tagIcon}
               previewLink={project.previewLink}
-              sourceCodeLink={project.sourceCodeLink}
               image={project.image}
               key={index}
             />

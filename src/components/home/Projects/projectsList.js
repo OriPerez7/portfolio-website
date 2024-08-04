@@ -5,14 +5,13 @@ import logo from '../../../assets/logo.png';
 
 export const projects = [
     {
-      title: 'React + Tailwind',
+      title: 'Binary Beans',
       description:
-        'Excepteur sint occaecat cupidatat non proident occaecat cupidatat occaecat cupidatat.',
+        'Coffee Shop for developers. Website created with React, Tailwind and Framer Motion.',
       image: logo,
       tagIcon: FrontendTag,
       tag: TAGS.frontend,
-      previewLink: 'https://josephinegyamera.tech',
-      sourceCodeLink: 'https://josephinegyamera.tech'
+      previewLink: 'https://binary-beans.vercel.app',
     },
     {
       title: 'Angular Project',
@@ -22,7 +21,6 @@ export const projects = [
       tagIcon: FrontendTag,
       tag: TAGS.frontend,
       previewLink: 'https://josephinegyamera.tech',
-      sourceCodeLink: 'https://josephinegyamera.tech'
     },
     {
       title: 'Portfolio Website',
@@ -32,6 +30,5 @@ export const projects = [
       tagIcon: FrontendTag,
       tag: TAGS.frontend,
       previewLink: 'https://josephinegyamera.tech',
-      sourceCodeLink: 'https://josephinegyamera.tech'
     }
   ];
