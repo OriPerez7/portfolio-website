@@ -1,5 +1,5 @@
 import React from "react";
-import { FaCode, FaCodepen } from "react-icons/fa6";
+import { FaCode, FaCodepen, FaWind } from "react-icons/fa6";
 
 const Tag = ({ icon, label, bgColor, color }) => {
   return (
@@ -14,16 +14,16 @@ const Tag = ({ icon, label, bgColor, color }) => {
   );
 };
 
-export const FrontendTag = (
-  <Tag icon={<FaCode />} bgColor="bg-gray" label="Frontend" />
+export const ReactTag = (
+  <Tag icon={<FaCode />} bgColor="bg-darkBlue" label="React" />
 );
 
-export const BackendTag = (
-  <Tag icon={<FaCodepen />} bgColor="bg-gray" label="Backend" />
+export const NextJSTag = (
+  <Tag icon={<FaCodepen />} bgColor="bg-gray" label="Next.js" />
 );
 
-export const FullStackTag = (
-  <Tag icon={<FaCode />} bgColor="bg-gray" label="Fullstack" />
+export const TailwindTag = (
+  <Tag icon={<FaWind />} bgColor="bg-blue" label="Tailwind" />
 );
 
 export default Tag;

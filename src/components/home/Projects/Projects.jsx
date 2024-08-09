@@ -29,6 +29,7 @@ const Projects = () => {
               title={project.title}
               description={project.description}
               tag={project.tagIcon}
+              otherTag={project.otherTag}
               previewLink={project.previewLink}
               image={project.image}
               key={index}
