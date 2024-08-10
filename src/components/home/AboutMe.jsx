@@ -37,11 +37,23 @@ const About = () => {
             <h4>Resume</h4>
             <p>
               <a
-                href="#"
+                href="/cv.pdf"
                 target="_blank"
+                rel="noopener noreferrer"
                 className="hover:text-secondary flex gap-1 items-center"
               >
-                orianperez.pdf
+                orianperez-spanish.pdf
+                <FaLink />
+              </a>
+            </p>
+            <p>
+              <a
+                href="/resume.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:text-secondary flex gap-1 items-center"
+              >
+                orianperez-english.pdf
                 <FaLink />
               </a>
             </p>
