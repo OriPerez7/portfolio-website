@@ -11,8 +11,8 @@ const Hero = () => {
       <div className="flex justify-between items-center gap-10 md:gap-40 flex-wrap md:flex-nowrap mt-14 md:mt-40">
         {/* Content */}
         <div className="flex flex-col gap-6 min-w-3/5">
-          <h2>Hey there! I'm</h2>
-          <h1 className="text-primary block">{currentLetter}</h1>
+          <h2>Hi! I'm</h2>
+          <h1 className="text-primary block text-4xl sm:text-6xl md:text-5xl lg:text-8xl">{currentLetter}</h1>
           <p className="text-lg">
             I'm a self-taught frontend developer with an eye for the small
             details that make a big difference. I love crafting responsive
