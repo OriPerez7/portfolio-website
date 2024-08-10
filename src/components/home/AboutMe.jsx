@@ -43,7 +43,7 @@ const About = () => {
                 className="hover:text-secondary flex gap-1 items-center"
               >
                 orianperez-spanish.pdf
-                <FaLink />
+                <FaLink className="text-secondary"/>
               </a>
             </p>
             <p>
@@ -54,7 +54,7 @@ const About = () => {
                 className="hover:text-secondary flex gap-1 items-center"
               >
                 orianperez-english.pdf
-                <FaLink />
+                <FaLink className="text-secondary"/>
               </a>
             </p>
           </div>
