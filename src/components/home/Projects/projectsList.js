@@ -24,13 +24,4 @@ export const projects = [
       tag: TAGS.frontend,
       previewLink: 'https://nature-quest-app.vercel.app/',
     },
-    {
-      title: 'Portfolio Website',
-      description:
-        'Excepteur sint occaecat cupidatat non proident occaecat cupidatat occaecat cupidatat.',
-      image: logo,
-      tagIcon: ReactTag,
-      tag: TAGS.frontend,
-      previewLink: 'https://josephinegyamera.tech',
-    }
   ];

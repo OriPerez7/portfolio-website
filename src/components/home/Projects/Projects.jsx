@@ -43,7 +43,9 @@ const Projects = () => {
 
 const ProjectsSection = () => {
   return (
-    <SectionLayout title="My Projects" subtitle=" " children={<Projects />} />
+    <section id="projects">
+      <SectionLayout title="My Projects" subtitle=" " children={<Projects />} />
+    </section>
   );
 };
 

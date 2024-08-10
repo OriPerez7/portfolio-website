@@ -1,6 +1,6 @@
 export const TAGS = {
     all: 'all',
-    frontend: 'frontend',
-    backend: 'backend',
-    fullstack: 'fullstack'
+    react: 'react',
+    nextjs: 'next.js',
+    tailwind: 'tailwind'
   };

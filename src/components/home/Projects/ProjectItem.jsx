@@ -8,7 +8,6 @@ const ProjectItem = ({
   otherTag,
   description,
   previewLink,
-  sourceCodeLink,
 }) => {
   const openNewPreviewLink = () => {
     window.open(previewLink, "_blank");

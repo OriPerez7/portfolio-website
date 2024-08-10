@@ -30,7 +30,9 @@ const Contact = () => {
 
 const ContactSection = () => {
   return (
-    <SectionLayout title="Contact Me" subtitle="" children={<Contact />} />
+    <section id="contact">
+      <SectionLayout title="Contact Me" subtitle="" children={<Contact />} />
+    </section>
   );
 };
 

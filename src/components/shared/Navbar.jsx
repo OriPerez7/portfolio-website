@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import { NavLink, Link } from "react-router-dom";
 import logo from "../../assets/logo.png";
 import { IoCloseSharp, IoMenu } from "react-icons/io5";
 
@@ -7,32 +6,25 @@ const NavItems = ({ className }) => {
   return (
     <ul className={className}>
       <li>
-        <NavLink
-          to="/"
-          className={({ isActive }) =>
-            isActive ? "active-link-underline" : "hover-underline"
-          }
-        >
-          Home
-        </NavLink>
+        <a href="/">Home</a>
       </li>
       <li>
-        <NavLink
-          to="/projects"
-          className={({ isActive }) =>
-            isActive ? "active-link-underline" : "hover-underline"
-          }
-        >
-          Projects
-        </NavLink>
+        <a href="#projects">Projects</a>
       </li>
       <li>
-        <Link to="/contact">
-          <button className="btn-primary">Contact</button>
-        </Link>
+        <button
+          className="btn-primary"
+          onClick={() =>
+            document
+              .getElementById("contact")
+              .scrollIntoView({ behavior: "smooth" })
+          }
+        >
+          Contact
+        </button>
       </li>
     </ul>
-  )
+  );
 };
 
 const Navbar = () => {
@@ -44,9 +36,9 @@ const Navbar = () => {
 
   return (
     <nav className="flex items-center justify-between ">
-      <Link to="/" className="w-32 ">
+      <a href="/" className="w-32 ">
         <img src={logo} alt="Logo" />
-      </Link>
+      </a>
 
       <NavItems className="hidden md:flex items-center space-x-8" />
 

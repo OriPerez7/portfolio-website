@@ -14,15 +14,33 @@ const Hero = () => {
           <h2>Hey there! I'm</h2>
           <h1 className="text-primary block">{currentLetter}</h1>
           <p className="text-lg">
-            I'm a self-taught frontend developer passionate about responsive
-            design. I love crafting projects that are clear, efficient, and easy
-            to follow, with an eye for the little details that make a big
-            difference.
+            I'm a self-taught frontend developer with an eye for the small
+            details that make a big difference. I love crafting responsive
+            projects from figma designs and turn them into clear, efficient
+            websites.
           </p>
 
           <div className="flex items-center gap-10">
-            <button className="btn-secondary">See my projects</button>
-            <button className="btn-primary">Let's chat</button>
+            <button
+              className="btn-secondary"
+              onClick={() =>
+                document
+                  .getElementById("projects")
+                  .scrollIntoView({ behavior: "smooth" })
+              }
+            >
+              See my projects
+            </button>
+            <button
+              className="btn-primary"
+              onClick={() =>
+                document
+                  .getElementById("contact")
+                  .scrollIntoView({ behavior: "smooth" })
+              }
+            >
+              Let's chat
+            </button>
           </div>
 
           <div className="flex gap-4 items-center">
